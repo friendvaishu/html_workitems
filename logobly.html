@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>logobly</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+height: 1200px;
+background-color:white;
+}
+.box1{
+width: 100%;
+height: 80px;
+float: left;
+}
+.box2{
+width: 100%;
+height: 350px;
+}
+.left{
+width: 30%;
+height: 250px;
+margin-left:20%;
+float: left;
+}
+.right{
+width: 30%;
+height: 250px;
+float: left;
+}
+.part1{
+width: 240px;
+height: 150px;
+margin: 10px;
+float: left;
+margin-left: 250px;
+}
+.part2{
+width: 240px;
+height: 150px;
+margin: 10px;
+float: left;
+margin-left: 10px;
+}
+
+.part3{
+width: 240px;
+height: 150px;
+margin: 10px;
+float: left;
+margin-left: 10px;
+}
+.part-a{
+width: 240px;
+height: 150px;
+margin: 10px;
+background-color:#fff;
+float: left;
+margin-left: 250px;
+}
+.part-b{
+width: 240px;
+height: 150px;
+margin: 10px;
+background-color:#fff;
+float: left;
+margin-left: 10px;
+}
+.part-c{
+width: 240px;
+height: 150px;
+margin: 10px;
+background-color:#fff;
+float: left;
+margin-left: 10px;
+}
+::-webkit-scrollbar{
+width: 20px;
+}
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 5px grey;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+background:gray;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+background:brown;
+}
+
+</style>
+</head>
+<body>
+<div class="main">
+<div class="box1">
+<img style="width: 100px; height: 60px; margin-left: 300px;" src="data:image/png;base64,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" alt="logo">
+
+<h4 style="float: right; margin-right: 350px;">Contact</h4>
+<h4 style="float: right; margin-right: 30px; ">About</h4>
+</div>
+<div class="box2">
+<div class="left">
+<img style="margin-left: 150px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tebYkntXsfdUAGFSNuOHN0bmJSDrD0uG3Q&usqp=CAU" alt="logo">
+
+</div>
+<div class="right">
+<p style=" margin-left:20px; margin-top: 50px; font-size: 20px;font-style: inherit; color: black;"><b>Get an ammazing logo<br>for your startup in 60<br> seconds</b</p>
+<h5 style="margin-top: 10px; margin-left:20px; color: rgba(0, 0, 0, 0.527);"> A delightfull new way to make logos for your internet<br>startup is comming soon</h5>
+<div style="width: 200px; height: 35px; background-color:rgba(27, 27, 27, 0.527); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color: rgb(24, 23, 23); margin-top: 10px;" href="url">Your e-mail</a>
+</div>
+
+<div style="width: 100px; height: 35px; background-color: rgba(0, 0, 255, 0.788); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color:white; margin-top: 10px;" href="url">Notify me</a>
+</div>
+</div>
+</div>
+<div style="width:100%; height: 200px;">
+<div class="part1">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src="https://cdn0.iconfinder.com/data/icons/interface-10/128/_Alarm_Clock-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Real logos. Real fest.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">Get your logo yesterday with our<br>super-fast logo maker made just<br>for startups and side project</p>
+
+</div>
+
+<div class="part2">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src="https://cdn2.iconfinder.com/data/icons/language-studies-glyph/32/linguistics-10-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Do it yourself nd sve.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">Crete n mzing logo yourself<br>nd sve lods our logo<br>mker mde just for you</p>
+</div>
+
+<div class="part3">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src=" https://cdn4.iconfinder.com/data/icons/glyphlibrary-one/100/rocket2-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Get website-redy<br>logos.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">instntly downlod PNG Nd SVG<br>files redy for use on your<br>strtup or<b>side project</b>website</p>
+</div>
+</div>
+
+<div style=" width: 100%; height: 300px;">
+<div class="left">
+<p style=" margin-left:20px; margin-top: 50px; font-size: 20px;font-style: inherit; color: black;"><b>Lunch your website<br>fster with new<br>logo from logobly</b></p>
+<h5 style="margin-top: 10px; margin-left:20px; color: rgba(0, 0, 0, 0.527);"> A delightfull new way to make logos for your internet<br>startup is comming soon</h5>
+<div style="width: 200px; height: 35px; background-color:rgba(27, 27, 27, 0.527); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color: rgb(24, 23, 23); margin-top: 10px;" href="url">Your e-mail</a>
+</div>
+
+<div style="width: 100px; height: 35px; background-color: rgba(0, 0, 255, 0.774); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color:white; margin-top: 10px;" href="url">Notify me</a>
+</div>
+</div>
+<div style="margin-right: 30%; float: right;">
+<img style="margin-left: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDrYj-bmOjYB9mLEUUm8qQ9eAsXFL1oVYKpZwgTuWkVhjKXSN9vFKSy5Zp2x4oI6JLu8&usqp=CAU"alt="logo">
+</div>
+</div>
+<div style="width:100%; height: 200px;">
+<div class="part-a">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src="https://cdn2.iconfinder.com/data/icons/thin-delivery/24/thin-1150_box_delivery_open-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Esy to use.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">Get your logo yesterday with our<br>super-fast logo maker made just<br>for startups and side project</p>
+
+</div>
+
+<div class="part-b">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src="https://cdn3.iconfinder.com/data/icons/round-ui-1/24/hq_high_qulity-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Qulity fonts.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">Get your logo yesterday with our<br>super-fast logo maker made just<br>for startups and side project</p>
+</div>
+
+<div class="part-c">
+<img style="width: 40px; height: 40px; margin-left: 100px;" src="https://cdn3.iconfinder.com/data/icons/round-ui-1/24/qulity_shield_protect-128.png" alt="clock">
+<h3 style="margin-left: 30px;"><b>Qulity icons.</b></h3>
+<p style="margin-left: 20px; color: rgba(0, 0, 0, 0.808);">Get your logo yesterday with our<br>super-fast logo maker made just<br>for startups and side project</p>
+</div>
+</div>
+
+<div style=" width: 100%; height: 350px;">
+<div style=" width: 30%; height: 250px; margin-left: 20%; float: left;">
+<img style="margin-left: 150px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_CqtYdZHGk-bVimgh_PhBZlPxg0pNh2TZWw&usqp=CAU" alt="logo">
+
+</div>
+<div style=" width: 30%;height: 250px; float: left;">
+<p style=" margin-left:20px; margin-top: 50px; font-size: 20px;font-style: inherit; color: black;"><b>Sve time <br>Sve money<br> Do it your wy</b></p>
+<h5 style="margin-top: 10px; margin-left:20px; color: rgba(0, 0, 0, 0.527);">A delightfull new way to make logos for your internet<br>startup is comming soon</h5>
+<div style="width: 200px; height: 35px; background-color:rgba(27, 27, 27, 0.527); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color: rgb(24, 23, 23); margin-top: 10px;" href="url">Your e-mail</a>
+</div>
+
+<div style="width: 100px; height: 35px; background-color: rgba(0, 0, 255, 0.836); border-radius: 5px; float: left; margin-top: 5%; margin-left: 10px;">
+<a style="color:white; margin-top: 10px;" href="url">Notify me</a>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

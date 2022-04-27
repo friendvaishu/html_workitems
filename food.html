@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100%;
+            height: 200vh;
+            background-color: white;
+        }
+        .menu{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+        }
+        ul{
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul li{
+            list-style: none;
+            font-size: 17px;
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+        ul li a{
+            color: black;
+            
+        }
+        .active ,a:hover{
+            color:tomato;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+         <div style=" width: 100%; height: 70vh; background-color:#f8d7dd;">
+           <div class="menu">
+                 <div style="width: 20%; height: 10vh; ">
+                    <h2 style="color:tomato; font-weight: bold;font-style: italic; margin-top: 30px; margin-left: 30%;">FOOD CITY</h2>
+                </div>
+
+                <div style="width: 50%; height: 10vh;"> 
+                    <ul>
+                       <li><a class="active">Home</a></li>
+                       <li><a>Menu</a></li>
+                       <li><a>Services</a></li>
+                       <li><a>About Us</a></li>
+                       <li><a>Blog</a></li>
+                       <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div style="width: 30%; height: 10vh; ">
+                     <a href="#"><input style="width: 22%; height: 45px;  border-radius: 5px; border:none; background-color: rgba(231, 94, 40, 0.897); margin-top: 13px; color: white;" type="button" value="Sign Up"></a>
+                     <a href="#"><input style="width: 22%; height: 45px; border-radius: 5px; border:none; background-color: rgba(231, 94, 40, 0.897); margin-top: 13px; color: white;" type="button" value="Log in"></a>
+                </div>
+            </div>
+
+            <div style="width: 100%; height: 55vh;  display:flex">
+
+                <div style="width: 50%; height: 55vh; ">
+                    <input  style="width:20%; height: 30px; border-radius:30px; background-color: white; color:rgba(255, 99, 71, 0.973); margin-left: 15%; margin-top: 70px;" type="button" value="MORE THEN FASTER">
+                    <h1 style="margin-left: 15%; font-family: Arial, Helvetica, sans-serif; font-weight:bold; margin-top: 30px;">Instant Food ,for</h1>
+                    <h1 style="margin-left: 15%; font-family: Arial, Helvetica, sans-serif; font-weight:bold; margin-top: 10x;">Instant Hunger</h1>
+                    <p style="color: #181717; margin-top: 20px; margin-left: 15%;">Retail food delivery is a courier in which a restaurant<br>store ,or indepenndent food delivery compay delivers food<br>to a customer.</p>
+                    <input style="width:15%; height: 40px; border-radius:10px; border:none; background-color:tomato; color:white; margin-left: 15%; margin-top: 25px;" type="button" value="Get Started">
+                </div>
+
+                <div style="width: 50%; height: 55vh;">
+                     <div style="width: 50%; height:90%; border-radius: 50%; background-color:rgba(255, 99, 71, 0.911) ">
+                        <img style="width: 90%; height: 100%; border-radius: 50%;  margin-left: 25px;" src="images/chef.jpg" alt="chef">
+                     </div>    
+                </div>
+            </div>
+        </div>
+
+        <div style="  width: 100%; height: 10vh; display: flex;">
+            <div style="width: 20%; height: 10vh; ">
+               <h3 style="color:black; font-family: Arial, Helvetica, sans-serif; margin-top: 30px; margin-left: 40%;">Special Menu For You</h3>
+           </div>
+
+           <div style="width: 50%; height: 10vh; margin-left: 25%;"> 
+              <ul style="  float: left;  display: flex;   justify-content: center;   align-items: center;">
+
+                  <li style=" list-style: none;  font-size: 15px;  margin-left: 80px;margin-top: 30px;"><a class="active">All</a></li>
+                  <li style=" list-style: none; font-size: 15px; margin-left: 80px; margin-top: 30px;"><a>Burger</a></li>
+                  <li style=" list-style: none; font-size: 15px; margin-left: 80px;  margin-top: 30px;"><a>Sushi</a></li>
+                  <li style=" list-style: none;  font-size: 15px;  margin-left: 80px; margin-top: 30px;"><a>Cake</a></li>
+                  <li style=" list-style: none;  font-size: 15px;  margin-left: 80px; margin-top: 30px;"><a>Steak</a></li>
+                  <li style=" list-style: none; font-size: 15px;  margin-left: 80px;margin-top: 30px;"><a>Drink</a></li>
+               </ul>
+           </div>
+        </div>
+
+        <div style="width: 100%; height: 50vh; display:flex; justify-content:space-evely; justify-content: space-around;">
+
+            <div style="width: 20%; height: 50vh; background-color: white; margin-left: 10%; border-radius: 2px; box-shadow: 0 0 2px 3px #cec9c9;">
+                <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/sausages.jpg" alt="green sausages">
+                <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">Green Sausages</h2>
+                <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+                <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                    <h3 style="margin-top: 15px;">$ 250</h3>
+                    <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                    <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+                </div>
+            </div>
+
+            <div style="width: 20%; height: 50vh; background-color: white; border-radius: 2px;box-shadow: 0 0 2px 3px #cec9c9;">
+                <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/burger.webp" alt="green sausages">
+                <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">Buzz Burgers</h2>
+                <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+                <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                    <h3 style="margin-top: 15px;">$ 250</h3>
+                    <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                    <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+                </div>
+           </div>
+            
+           <div style="width: 20%; height: 50vh; background-color: white; margin-right: 25%; border-radius: 2px;box-shadow: 0 0 2px 3px #cec9c9;">
+            <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/pizza.jpg" alt="green sausages">
+            <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">Popporani pizza</h2>
+            <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+            <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                <h3 style="margin-top: 15px;">$ 250</h3>
+                <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+            </div>
+           </div>
+       </div>
+
+       <div style="width: 100%; height: 50vh; display:flex; justify-content:space-evely; justify-content: space-around; margin-top: 20px;">
+
+             <div style="width: 20%; height: 50vh; background-color: white; margin-left: 10%; border-radius: 2px; box-shadow: 0 0 2px 3px #cec9c9;">
+                  <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/salad.webp" alt="green sausages">
+                  <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">Green Salad</h2>
+                  <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+                  <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                       <h3 style="margin-top: 15px;">$ 250</h3>
+                       <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                       <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+                  </div>
+           </div>
+
+            <div style="width: 20%; height: 50vh; background-color: white; border-radius: 2px; box-shadow: 0 0 2px 3px #cec9c9;">
+                  <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/s-burger.jpg" alt="green sausages">
+                  <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">Smokin'Burger</h2>
+                  <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+                  <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                       <h3 style="margin-top: 15px;">$ 250</h3>
+                       <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                       <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+                  </div>
+            </div>
+        
+            <div style="width: 20%; height: 50vh; background-color: white; margin-right: 25%; border-radius: 2px; box-shadow: 0 0 2px 3px #cec9c9;">
+                  <img style="width: 70%; height: 50%; align-items: center; margin-left: 15%; " src="images/a-burger.jpg" alt="green sausages">
+                  <h2 style="margin-left: 15%; margin-top: 30px; font-weight: bold;">American Burger</h2>
+                  <img  style="width: 90px; height: 50px; margin-top: 10px; margin-left: 15%;" src="images/download.jpeg" alt="srarts">
+                  <div style="display: flex; justify-content: space-around; margin-left: 10%; margin-top: 10px;">
+                      <h3 style="margin-top: 15px;">$ 250</h3>
+                      <h3 style="color: #666666; margin-top: 15px;">$ 260</h3>
+                      <input style="width: 40%; height: 40px; background-color: tomato; border-radius: 5px; color: white;border: none;" type="button" value="Add to card">
+                  </div>
+            </div>
+        </div>
+        
+        <div style="width: 100%; height: 20vh; background-color:#fce1e6bd; margin-top: 5%;">
+            <h2 style="margin-top: 60px; font-family: Arial, Helvetica, sans-serif; text-align: center; margin-right: 15%;">Our Excellence Services</h2>
+            <p style="margin-top: 10px; text-align: center; margin-right:15% ;">We live in a service economy when great customer between a</p>
+            <p style="margin-top: 10px; text-align: center; margin-right: 15%;">service that's great annd excellet services</p>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+        height: 180vh;
+        background-color: rgb(158, 158, 226);
+        float: left;
+
+    }
+</style>
+<body>
+    <div class="main" >
+        <div style="width: 80%; height: 170vh; background-color: white; margin-left: 150px; margin-top: 50px; float: left;">
+            <div style="width: 100%; height: 90px; border-bottom: 1px solid rgb(66, 64, 64);">
+                <h1 style="font-size: 40px; margin-left: 70px; margin-top: 40px; color: rgb(84, 84, 247); ">NEW YORK-PRESBYTERIAN HOSPITAL REGISTRATION FORM</h1>
+            </div>
+
+            <div style="display: flex;  border-bottom: 1px solid rgb(59, 58, 58);">
+                   <div style="width: 50%; height: 200px;">
+                        <div style="display: flex;">
+                           <h3 style="margin-top: 40px;" >Referring Facility :</h3>
+                           <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="facility_name" type="text" placeholder="Facility name">
+                        </div>
+                    </div>
+
+                    <div style="width: 50%; height: 200px; ">
+                         <div style="display: flex;">
+                           <h3 style="margin-top: 40px; margin-left: 100px;" >Phone:</h3>
+                           <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 90px; margin-top: 33px;"   type="number" id="phone_text" placeholder="number">
+                       </div>  
+
+                       <div style="display: flex;">
+                        <h3 style="margin-top: 25px; margin-left: 100px;" >Fax:</h3>
+                        <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 110px; margin-top: 20px;" type="text" id="fax_text" placeholder="Facility name">
+                    </div>  
+
+                    <div style="display: flex;">
+                        <h3 style="margin-top: 25px; margin-left: 100px;" >Cotact Person:</h3>
+                        <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 25px; margin-top: 20px;" id="Cotact_Person" type="text"  placeholder="Facility name">
+                    </div>  
+                   </div>  
+            </div>
+
+           
+            <h2 style="text-align: center; margin-top: 10px;">Please print information</h2>
+            <div style="display: flex;">
+                <div style="width: 50%; height: 180px; ">
+                    <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Date of request:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="date_request" type="date" placeholder="Date of request">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Patient name :</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="patient_name " type="text" placeholder="Facility name">
+                     </div>
+
+                </div>
+
+                <div style="width: 50%; height: 180px; ">
+                    <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Patiennt CPMC Medical Record number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="Patiennt_CPMC " type="text" placeholder="Patiennt CPMC Medical Record number">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Date of Birth:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="dob_text" type="date" placeholder="Date of Birth">
+                     </div>
+
+                </div>
+
+            </div>
+
+            <div style=" width: 100%; height: 180px;  ">
+                <div style="width: 100%; height: 60px;display: flex; ">
+                    <div style="display: flex;">
+                        <h3 style="margin-left: 80px;">Male:</h3>
+                        <input style="margin-left: 20px; margin-top: 5px;" id="male_text" type="checkbox">
+                    </div>
+
+                    <div style="display: flex;">
+                        <h3 style="margin-left: 80px;">Female:</h3>
+                        <input style="margin-left: 20px; margin-top: 5px;" id="female_text" type="checkbox">
+                    </div>
+                </div>
+
+                <div style="display: flex;">
+                    <h3 style="margin-top: 40px;" >Address:</h3>
+                    <input style="width: 900px; height: 60px; background-color: #bbb; margin-left: 30px; margin-top: 35px;" id="address_text" type="text" placeholder="Address">
+                 </div>
+
+            </div>
+
+            <div style="width: 100%; height: 460px; display: flex;">
+                <div style="width: 40%; height: 500px; ">
+                    <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Home/cell Number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 46px; margin-top: 35px;" id="cell_number" type="number" placeholder="Home/cell Number:">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Mother's First Name:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 30px; margin-top: 35px;" id=" mother_name" type="text" placeholder="Mother's First Name:">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Insurance Plane:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 64px; margin-top: 35px;"  id="insurance_Plane" type="text" placeholder="Insurance Plane">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Medical CIN Number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 20px; margin-top: 35px;" id="medical_CIN " type="number" placeholder="Medical CIN Number">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Refering Physicion Number:</h3>
+                        <input style="width: 350px; height: 30px; background-color: #bbb; margin-right:32px; margin-top: 35px;" id="refering_pysicion" type="number" placeholder="Refering Physicion Number">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Clinic Refered:</h3>
+                        <input style="width: 310px; height: 30px; background-color: #bbb; margin-left: 75px; margin-top: 35px;" id="Clinic_Refered" type="text" placeholder="Clinic Refered">
+                     </div>
+
+                </div>   
+                
+                <div style="width: 50%; height: 500px; ">
+                    <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Other Number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 90px; margin-top: 35px;" id="Other_Number" type="number" placeholder="Other Number">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Father's First Name:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 50px; margin-top: 35px;" id="father_name" type="text" placeholder="Father's First Name:">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Plan ID/Group Number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 20px; margin-top: 35px;" id="plan_id" type="text" placeholder="Plan ID/Group Number">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px;" >Medicare Number:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 65px; margin-top: 35px;" id="medicar_number" type="number" placeholder="Medicare Numberr">
+                     </div>
+
+                     <div style="display: flex;">
+                        <h3 style="margin-top: 40px; font-size: 17px;" >UPIN#:for digostic services:</h3>
+                        <input style="width: 300px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="digostic_services" type="text" placeholder="UPIN#:for digostic services">
+                     </div>
+
+                     <div style="display: flex;">
+                        <div style="display: flex;">
+                            <h3 style="margin-top: 50px; " >diagnosis:</h3>
+                            <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 45px;" id="diagnosis" type="text" placeholder="diagnosis">
+                         </div>
+                         <div style="display: flex;">
+                            <h3 style="margin-top: 50px; margin-left: 30px; " >ICD 9code:</h3>
+                            <input style="width: 200px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 45px;" id="icd_code" type="number" placeholder="ICD 9Code">
+                         </div>
+
+                     </div>
+
+                </div> 
+
+            </div>
+
+            <div style="width: 100%; height: 400px;">
+                <div style="display: flex;">
+                    <h3 style="margin-top: 40px;" >Required to rule  out/eventualy patient for:</h3>
+                    <input style="width: 645px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="requested_rule" type="text" placeholder="Required to rule  out/eventualy patient for">
+                 </div>
+
+                 <div style="display: flex;">
+                    <h3 style="margin-top: 40px;" >time frame physicia is seeking for appoinment:</h3>
+                    <input style="width: 605px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="seeking_appoinment" type="text" placeholder="time frame physicia is seeking for appoinment:">
+                 </div>
+
+                 <div style="display: flex;">
+                    <h3 style="margin-top: 40px;" >Patiet apoinment date/timepreferece(we will try to shedule if the client is available):</h3>
+                    <input style="width: 320px; height: 30px; background-color: #bbb; margin-left: 15px; margin-top: 35px;" id="appoinment_date" type="datetime" placeholder="Patiet apoinment date/timepreferece">
+                 </div>
+
+                 <h2 style="margin-left: 400px; margin-top: 90px; font-style: italic;">Incompleated form will be returned</h2>
+
+            </div>
+
+            <input style="width: 200px; height: 40px; border-radius: 20px; background-color: rgb(106, 200, 243); margin-left: 470px; border: none;" type="button" onclick="myFunction()" value="Register">
+
+            <script>
+                function myFunction(){
+                    var facilityname =document.getElementById('facility_name').value;
+    
+                    if (facilityname == ''){
+                        alert("please enter the facilityname")
+                        return;
+                    }
+                    
+
+                    var phone  =document.getElementById('phone_text').value;
+    
+                    if (phone  == ''){
+                        alert("please enter the  phone number")
+                        return;
+                    }
+
+                    var fax  = document.getElementById('fax_text').value;
+    
+                    if (fax == ''){
+                        alert("please enter the fax ")
+                        return;
+                    }
+
+                    var phone  =document.getElementById('phone_text').value;
+    
+                    if (phone  == ''){
+                    alert("please enter the  phone number")
+                     return;
+                    }
+
+                    var fax  = document.getElementById('fax_text').value;
+    
+                      if (fax == ''){
+                      alert("please enter the fax ")
+                      return;
+                    }
+
+                    var CotactPerson = document.getElementById('Cotact_Person').value;
+    
+                      if (CotactPerson  == ''){
+                     alert("please enter the  CotactPerson ")
+                      return;
+                     }
+
+                   var CotactPerson = document.getElementById('Cotact_Person').value;
+    
+                   if (CotactPerson  == ''){
+                   alert("please enter the  CotactPerson ")
+                        return;
+                    }
+                
+
+                   var daterequest  = document.getElementById('date_request').value;
+    
+                    if (daterequest  == ''){
+                         alert("please enter the daterequest  ")
+                        return;
+                    }
+
+                   var Patientname   = document.getElementById('patient_name ').value;
+
+                    if (Patientname  == ''){
+                        alert("please enter the Patientname   ")
+                        return;
+                    }
+
+                    var dob  = document.getElementById('dob_text').value;
+
+                    if (dob == ''){
+                        alert("please enter the  date of birth ")
+                     return;
+                    }
+
+                    var  male = document.getElementById('male_text').value;
+
+                     if (male == ''){
+                         alert("please enter the male")
+                         return;
+                     }
+
+                     var female  = document.getElementById('female_text').value;
+
+                    if (female  == ''){
+                         alert("please enter the  female ")
+                        return;
+                     }
+
+                    var address = document.getElementById('address_text').value;
+
+                     if (address  == ''){
+                         alert("please enter the address ")
+                         return;
+                    }
+
+                     var cellnumber  = document.getElementById('cell_number').value;
+
+                     if ( cellnumber  == ''){
+                         alert("please enter the  cellnumber ")
+                        return;
+                     }
+
+                   var mothername  = document.getElementById('mother_name').value;
+
+                     if (mothername  == ''){
+                        alert("please enter the mother name ")
+                        return;
+                     }
+
+                     var  insurancePlane = document.getElementById('insurance_Plane').value;
+
+                     if (insurancePlane == ''){
+                         alert("please enter the insurance Plane ")
+                        return;
+                     }
+
+                    var medicalCIN  = document.getElementById('medical_CIN ').value;
+
+                     if (medicalCIN  == ''){
+                         alert("please enter the medical CIN ")
+                         return;
+                     }
+
+                     var referingpysicion = document.getElementById('refering_pysicion').value;
+
+                     if (referingpysicion == ''){
+                         alert("please enter the refering pysicion")
+                         return;
+                     }
+
+                     var ClinicRefered = document.getElementById('Clinic_Refered').value;
+
+                     if (ClinicRefered == ''){
+                         alert("please enter the Clinic Refered")
+                         return;
+                     }
+
+                     var OtherNumber = document.getElementById('Other_Number').value;
+
+                     if (OtherNumber == ''){
+                         alert("please enter the Other Number")
+                         return;
+                     }
+
+                     var fathername = document.getElementById('father_name').value;
+
+                     if (fathername == ''){
+                         alert("please enter the father name")
+                        return;
+                     }
+
+                     varplanid  = document.getElementById('plan_id').value;
+
+                    if (planid == ''){
+             
+                        alert("please enter the plan id")
+                        return;
+                    }
+
+                    var medicarnumber = document.getElementById('medicar_number').value;
+
+                    if (medicarnumber == ''){
+                    alert("please enter the medicar number")
+                        return;
+                    }
+
+                    var digosticservices  = document.getElementById('digostic_services').value;
+
+                     if (digosticservices == ''){
+                        alert("please enter the digostic services")
+                        return;
+                    }
+
+                    var diagnosis = document.getElementById('diagnosis').value;
+
+                     if (diagnosis == ''){
+                         alert("please enter the diagnosis")
+                         return;
+                     }
+
+                    var icdcode = document.getElementById('icd_code').value;
+
+                    if (icdcode == ''){
+                       alert("please enter the icd code")
+                         return;
+                    }
+               
+
+                  var requestedrule  = document.getElementById('requested_rule').value;
+
+                   if (requestedrule == ''){
+                       alert("please enter the requested rule")
+                       return;
+                   }
+               
+
+                  var seekingappoinment = document.getElementById('seeking_appoinment').value;
+
+                   if (seekingappoinment == ''){
+                       alert("please enter the seeking appoinment")
+                       return;
+                 }
+
+                  var appoinmentdate = document.getElementById('appoinment_date').value;
+
+                    if (appoinmentdate == ''){
+                        alert("please enter the appoinment_date")
+                      return;
+                   }
+                }
+              
+            </script>
+        </div>
+
+       
+
+    </div>
+</body>
+</html>
